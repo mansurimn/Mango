@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{3F74957C-043D-4C3D-8EAB-5E11F85609C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{D0C89AAE-97F9-413F-9089-D6F91466E77C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{DA92CFB6-AFCE-4572-B770-FD67BFAACB3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{974C9E2B-0E16-4530-9268-A96ED7969191}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{CC68E147-4C7B-47F5-A927-D93EC5694ECE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{DE0BBC2F-204E-442E-B0D3-A1823CE8C659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{AC90EF33-35A3-423B-ABA7-D50B75207C66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC68E147-4C7B-47F5-A927-D93EC5694ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC68E147-4C7B-47F5-A927-D93EC5694ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC68E147-4C7B-47F5-A927-D93EC5694ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC68E147-4C7B-47F5-A927-D93EC5694ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0BBC2F-204E-442E-B0D3-A1823CE8C659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0BBC2F-204E-442E-B0D3-A1823CE8C659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0BBC2F-204E-442E-B0D3-A1823CE8C659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0BBC2F-204E-442E-B0D3-A1823CE8C659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC90EF33-35A3-423B-ABA7-D50B75207C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC90EF33-35A3-423B-ABA7-D50B75207C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC90EF33-35A3-423B-ABA7-D50B75207C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC90EF33-35A3-423B-ABA7-D50B75207C66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC68E147-4C7B-47F5-A927-D93EC5694ECE} = {974C9E2B-0E16-4530-9268-A96ED7969191}
+		{DE0BBC2F-204E-442E-B0D3-A1823CE8C659} = {3F74957C-043D-4C3D-8EAB-5E11F85609C9}
+		{AC90EF33-35A3-423B-ABA7-D50B75207C66} = {974C9E2B-0E16-4530-9268-A96ED7969191}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90978A3F-92E2-4ECC-B196-36B6B523AA05}
+	EndGlobalSection
+EndGlobal
